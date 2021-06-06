@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+        <li *ngFor="let tab of tabs |  keyvalue: returnZero">
+            <a [routerLink]="tab.value" routerLinkActive="active">{{tab.value | titlecase}}</a>
+        </li>
+    </ul>
+</nav>

@@ -7,6 +7,10 @@ import { environment } from 'src/environments/environment';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { RoutesModule } from './routes/routes.module';
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import { AppEffects } from './state/app.effects';
+import { reducer } from './state/app.reducer';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,9 @@ import { RoutesModule } from './routes/routes.module';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     LayoutModule,
-    RoutesModule
+    RoutesModule,
+    StoreModule.forRoot({ app: reducer }),
+    EffectsModule.forRoot([AppEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]
