@@ -6,6 +6,7 @@ import { TopbarComponent } from './header/topbar/topbar.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { LayoutComponent } from './layout.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { TabsComponent } from './header/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AppRoutingModule } from '../app-routing.module';
     FooterComponent,
     TopbarComponent,
     MainContainerComponent,
-    LayoutComponent
+    LayoutComponent,
+    TabsComponent
   ],
   imports: [
     AppRoutingModule,
