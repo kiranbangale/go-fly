@@ -4,8 +4,9 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { BrowserModule } from '@angular/platform-browser';
 import { environment } from 'src/environments/environment';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LayoutModule } from './layout/layout.module';
+import { RoutesModule } from './routes/routes.module';
 
 @NgModule({
   declarations: [
@@ -13,9 +14,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    LayoutModule,
+    RoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
