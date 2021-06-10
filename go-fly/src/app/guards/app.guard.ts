@@ -19,12 +19,9 @@ export class AppGuard implements CanActivate {
         state: RouterStateSnapshot): Promise<boolean> {
 
         return new Promise((resolve) => {
-            this.db.list('data').valueChanges()
-                .pipe(take(1),
-                    map(([data]) => { return { data }; })
-                )
+            this.db.object('data').valueChanges()
                 .subscribe((data: any) => {
-                    this.filghtService.storeFlightData(data);
+                    this.filghtService.storeFlightData({ data: data });
                     resolve(true);
                 }, (error) => {
                     console.log(error)
