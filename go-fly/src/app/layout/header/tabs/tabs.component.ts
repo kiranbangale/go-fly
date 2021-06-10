@@ -16,5 +16,4 @@ export class TabsComponent implements OnInit {
   returnZero() {
     return 0
   }
-
 }

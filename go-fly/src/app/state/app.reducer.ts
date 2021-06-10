@@ -18,10 +18,6 @@ export function reducer(state: AppState = initialAppState, action: any) {
                 ...state,
                 flightData: action.payload
             };
-        case AppActions.GET_FLIGHT_DATA:
-            return {
-                ...state
-            };
         default:
             return state;
     }

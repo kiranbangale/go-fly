@@ -18,5 +18,5 @@ export const getSelectError = createSelector(
 
 export const getSelectFlightData = createSelector(
     selectFlightData,
-    (flightDataModel: FlightDataModel) => { return flightDataModel; }
+    (flightData: FlightDataModel) => { return flightData; }
 );
