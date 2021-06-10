@@ -1,2 +1,5 @@
 <p>flights works!</p>
-{{(flightData|async)|json}}
+<div>
+    {{flightData}}
+    {{(flightData|async)?.data|json}}
+</div>
