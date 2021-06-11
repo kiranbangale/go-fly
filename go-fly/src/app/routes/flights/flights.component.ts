@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { FlightDataModel } from 'src/app/models/flight/flights.model';
 import { FlightService } from 'src/app/services/flight.service';
-import { Observable } from 'rxjs';
+
+import { AppState } from 'src/app/state/app.state';
+import { Store } from '@ngrx/store';
 
 @Component({
   selector: 'app-flights',
@@ -10,13 +11,17 @@ import { Observable } from 'rxjs';
 })
 export class FlightsComponent implements OnInit {
 
-  public flightData!: Observable<FlightDataModel>;
+  public flightData!: any//Observable<FlightDataModel>;
 
-  constructor(private flightService: FlightService) { }
+  constructor(private flightService: FlightService, private store: Store<AppState>) { }
 
   ngOnInit() {
-    this.flightData = this.flightService.loadInitialData()
-    console.log(this.flightData)
+
+    // this.flightData = this.flightService.loadInitialData();
+    this.store.select(state => state).subscribe(data => {
+      this.flightData = data;
+    });
+
   }
 
 }

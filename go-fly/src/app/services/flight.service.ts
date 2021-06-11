@@ -13,7 +13,8 @@ export class FlightService {
     constructor(private store: Store<AppState>) { }
 
     public loadInitialData(): Observable<FlightDataModel> {
-        return this.store.select(fromAppSelectors.getSelectFlightData);
+        // return this.store.select(fromAppSelectors.getSelectFlightData);
+        return this.store.select(state => state.flightData);
     }
 
     public storeFlightData(flightData: FlightDataModel): void {
