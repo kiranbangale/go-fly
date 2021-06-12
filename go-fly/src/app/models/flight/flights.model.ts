@@ -21,3 +21,19 @@ export interface ClassTypeModel {
     name: string;
     code: string;
 }
+
+export class SearchFlightModel {
+    constructor(
+        public departure: string,
+        public destination: string,
+        public departureDate: string,
+        public returnDate: string,
+        public travellers: TravellersModel,
+        public travellerClass: string
+    ) { }
+}
+
+export interface TravellersModel {
+    count: number;
+    type: string;
+}

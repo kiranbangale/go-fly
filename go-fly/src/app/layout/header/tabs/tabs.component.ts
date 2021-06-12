@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TABS } from 'src/app/constants/tabs.const';
+import { tabs } from 'src/app/constants/tabs.const';
 
 @Component({
   selector: 'app-tabs',
@@ -7,13 +7,11 @@ import { TABS } from 'src/app/constants/tabs.const';
   styleUrls: ['./tabs.component.scss']
 })
 export class TabsComponent implements OnInit {
-  public tabs = TABS;
+  public tabs = tabs;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  returnZero() {
-    return 0
-  }
 }

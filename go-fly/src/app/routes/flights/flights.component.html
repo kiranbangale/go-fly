@@ -1,4 +1,69 @@
-<p>flights works!</p>
-<div>
-    {{flightData|json}}
-</div>
+<form #searchForm="ngForm" (ngSubmit)="onSubmit(searchFlightForm)">
+    <div class="form-group">
+
+        <fieldset>
+            <legend>Departure</legend>
+            <select class="form-control" id="departure" name="departure" required
+                [(ngModel)]="searchFlightForm.departure">
+                <option class="placeholder" selected disabled value="">Airport or city</option>
+                <option width="30" *ngFor="let airport of flightData.app.flightData?.data.airports"
+                    [value]="airport.id">
+                    {{airport.name}}
+                </option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Destination</legend>
+            <select class="form-control" id="destination" name="destination" required
+                [(ngModel)]="searchFlightForm.destination">
+                <option *ngFor="let airport of flightData.app.flightData?.data.airports" [value]="airport.id">
+                    {{airport.name}}
+                </option>
+            </select>
+        </fieldset>
+
+        <div class="date-group">
+            <fieldset class="date-fieldset">
+                <legend>Departure Date</legend>
+                <input class="form-control" type="date" id="departureDate" name="departureDate" [value]=""
+                    [(ngModel)]="searchFlightForm.departureDate" min="2018-01-01" max="2018-12-31">
+            </fieldset>
+
+            <fieldset class="date-fieldset">
+                <legend>Return Date</legend>
+                <input class="form-control" type="date" id="returnDate" name="returnDate" [value]=""
+                    [(ngModel)]="searchFlightForm.returnDate" min="2018-01-01" max="2018-12-31">
+            </fieldset>
+        </div>
+
+        <div class="date-group">
+            <fieldset class="date-fieldset">
+                <legend>Travellers</legend>
+                <input class="form-control" id="passengerCount" name="passengerCount" required type="number"
+                    [(ngModel)]="searchFlightForm.travellers.count" value="1">
+                <select class="form-control" id="passengerType" name="passengerType" required
+                    [(ngModel)]="searchFlightForm.travellers.type">
+                    <option *ngFor="let passengerType of flightData.app.flightData?.data.passengerType"
+                        [value]="passengerType.code">
+                        {{passengerType.name}}
+                    </option>
+                </select>
+            </fieldset>
+
+            <fieldset class="date-fieldset">
+                <legend>Class</legend>
+                <select class="form-control" id="travellerClass" name="travellerClass" required
+                    [(ngModel)]="searchFlightForm.travellerClass">
+                    <option *ngFor="let travellerClass of flightData.app.flightData?.data.classType"
+                        [value]="travellerClass.code">
+                        {{travellerClass.name}}
+                    </option>
+                </select>
+            </fieldset>
+        </div>
+        <div class="submitBtn">
+            <button type="submit" [disabled]="!searchForm.valid">Search flights</button>
+        </div>
+    </div>
+</form>

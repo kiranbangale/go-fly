@@ -5,6 +5,7 @@ import { HotelsComponent } from './hotels/hotels.component';
 import { CarsComponent } from './cars/cars.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PageNotFoundComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class RoutesModule { }

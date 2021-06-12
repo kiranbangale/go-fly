@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FlightService } from 'src/app/services/flight.service';
+import { SearchFlightModel } from 'src/app/models/flight/flights.model';
 
 import { AppState } from 'src/app/state/app.state';
 import { Store } from '@ngrx/store';
@@ -11,17 +11,21 @@ import { Store } from '@ngrx/store';
 })
 export class FlightsComponent implements OnInit {
 
-  public flightData!: any//Observable<FlightDataModel>;
+  public flightData!: any;
+  public searchFlightForm = new SearchFlightModel('', '', '', '', { count: 0, type: '' }, '');
 
-  constructor(private flightService: FlightService, private store: Store<AppState>) { }
+  constructor(private store: Store<AppState>) { }
 
   ngOnInit() {
 
-    // this.flightData = this.flightService.loadInitialData();
     this.store.select(state => state).subscribe(data => {
       this.flightData = data;
     });
 
+  }
+
+  onSubmit(searchFlightForm: any) {
+    console.log(searchFlightForm);
   }
 
 }

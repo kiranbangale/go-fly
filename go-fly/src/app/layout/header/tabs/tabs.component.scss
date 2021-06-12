@@ -1,0 +1,25 @@
+@import './../../../../styles.scss';
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+    li{
+        padding: 15px 0;
+        font-size: 20px;
+        border-bottom: 5px solid;
+        a{
+            margin: 8px;
+            text-decoration: none;
+            color: $colorText;
+        }
+        &.active{
+            color: $colorBlue;
+            background-color: $colorLightBlue;
+            a{
+                color: $colorBlue;
+            }
+        }
+    }
+}

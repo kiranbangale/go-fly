@@ -1,0 +1,40 @@
+@import './../../../styles.scss';
+
+.form-group {
+    fieldset{
+        margin: 1em;
+        border-radius: $borderRadious;
+        padding: 0;
+        legend {
+            margin: 0 15px;
+        }
+        .form-control{
+            box-shadow: none;
+            border: none;
+            height: 4em;
+            width: 100%;
+            outline: none;
+            option{
+                @include textStyle;
+            }
+             .placeholder {
+                display: none;
+              }
+        }
+    }
+    .date-group{
+        display: flex;
+        justify-content: space-between;
+        .date-fieldset{
+            display: flex;
+            width: -webkit-fill-available;
+            margin-top: 0;
+        }
+    }
+    .submitBtn{
+        margin:15px;
+        button {
+            @include greenBtn;
+        }
+    }
+}
