@@ -5,11 +5,13 @@ export interface AppState {
     error: boolean;
     flightData: FlightDataModel;
     searchResults: SearchFlightModel;
+    sortById: number;
 }
 
 export const initialAppState: any = {
     loader: false,
     error: false,
     flightData: null,
-    searchResults: null
+    searchResults: null,
+    sortById: 0
 };

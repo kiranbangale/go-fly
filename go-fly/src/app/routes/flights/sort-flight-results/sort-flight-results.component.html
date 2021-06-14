@@ -1,1 +1,8 @@
-<p>sort-flight-results works!</p>
+<div class="sort-options">
+    <div class="sort-option" *ngFor="let option of sortOptions">
+        <input type="radio" [value]="option.id" name="sortBy" [ngModel]="sortBy">{{option.label}}
+    </div>
+    <button (click)="sort()">
+        Done
+    </button>
+</div>

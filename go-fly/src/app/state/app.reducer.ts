@@ -23,6 +23,11 @@ export function reducer(state: AppState = initialAppState, action: any) {
                 ...state,
                 searchResults: action.payload
             };
+        case AppActions.SORT_BY:
+            return {
+                ...state,
+                sortById: action.payload
+            };
         default:
             return state;
     }

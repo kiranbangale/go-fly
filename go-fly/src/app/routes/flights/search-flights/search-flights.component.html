@@ -99,10 +99,8 @@
         </div>
 
         <div class="submitBtn">
-            <button type="submit">Search
+            <button type="submit" [disabled]="!searchForm.valid" [ngClass]="{'invalidBtn': !searchForm.valid}">Search
                 flights</button>
-            <!-- <button type="submit" [disabled]="!searchForm.valid" [ngClass]="{'invalidBtn': !searchForm.valid}">Search
-                flights</button> -->
         </div>
     </div>
 </form>
