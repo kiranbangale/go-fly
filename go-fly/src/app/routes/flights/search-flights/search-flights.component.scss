@@ -3,7 +3,7 @@
 .form-group {
     fieldset{
         margin: 1em;
-        border-radius: $borderRadious;
+        border-radius: $borderRadius;
         padding: 0;
         &.invalid{
             border-color: $colorInvalid;
@@ -13,7 +13,7 @@
         }
         legend {
             margin: 0 15px;
-            font-size: 0.8rem;
+            font-size: 0.8em;
         }
         .form-control{
             box-shadow: none;

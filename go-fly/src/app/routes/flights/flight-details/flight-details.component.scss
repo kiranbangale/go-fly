@@ -1,0 +1,62 @@
+@import './../../../../styles.scss';
+
+.details{
+    margin: 15px;
+    padding: 15px;
+    background: #fff;
+    color: $colorTextBlack;
+    box-shadow: $boxShadow;
+    .duration-details{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: space-between;
+        .time-details{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            &:first-child{
+                align-items:flex-start;
+            }
+            &:last-child{
+                align-items:flex-end;
+            }
+            .bold{
+                font-weight: bold;
+            }
+        }
+    }
+    .cost-details{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-basis: 100%;
+            justify-content: space-between;
+            padding: 0;
+            li{
+                display: flex;
+                flex-flow: column;
+                align-items: flex-start;
+                width: 100%;
+                background: $colorBlue;
+                margin: 5px;
+                padding: 15px;
+                border-radius: $borderRadius;
+                color: $colorLightBlue;
+                &:first-child{
+                    margin-left: 0;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+                .available-seats{
+                    margin: -2em 0 0 0.9em;
+                    background: $colorWarning;
+                    font-size: $fontSize;
+                    color: $colorTextBlack;
+                    padding: 2px 0.5em;
+                    border-radius: $borderRadius;
+                }
+            }
+        }
+    }
+}

@@ -22,8 +22,7 @@ export class SearchFlightsComponent implements OnInit {
   constructor(
     private flightService: FlightService,
     private store: Store<AppState>,
-    private router: Router,
-    private route: ActivatedRoute) { }
+    private router: Router) { }
 
   ngOnInit() {
 

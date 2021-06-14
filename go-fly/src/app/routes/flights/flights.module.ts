@@ -6,6 +6,9 @@ import { SearchFlightsComponent } from './search-flights/search-flights.componen
 import { AirportValidatorDirective } from './flights.directive';
 import { FormsModule } from '@angular/forms';
 import { FlightsComponent } from './flights/flights.component';
+import { FlightDetailsComponent } from './flight-details/flight-details.component';
+import { SortFlightResultsComponent } from './sort-flight-results/sort-flight-results.component';
+import { FilterFlightResultsComponent } from './filter-flight-results/filter-flight-results.component';
 
 @NgModule({
     imports: [
@@ -17,7 +20,10 @@ import { FlightsComponent } from './flights/flights.component';
         FlightsComponent,
         SearchFlightsComponent,
         SearchResultComponent,
-        AirportValidatorDirective
+        AirportValidatorDirective,
+        FlightDetailsComponent,
+        SortFlightResultsComponent,
+        FilterFlightResultsComponent
     ]
 })
 export class FlightModule { }

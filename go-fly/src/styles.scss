@@ -7,10 +7,13 @@ $colorBlue: #05407a;
 $colorLightBlue: #e8fcff;
 $colorGreen: #048c38;
 $colorText: #666666;
+$colorTextBlack: #333;
 $colorInvalid:#a80707;
+$colorWarning: #ffda54;
 
 $fontSize: 12px;
-$borderRadious: 5px;
+$borderRadius: 5px;
+$boxShadow: 1px 3px 3px 1px $colorText;
 
 @mixin textStyle {
     color: $colorText;
@@ -21,7 +24,7 @@ $borderRadious: 5px;
     padding: 18px;
     width: 100%;
     background:$colorGreen;
-    border-radius: $borderRadious;
+    border-radius: $borderRadius;
     color: $colorLightBlue;
     font-size: 1.5em;
 }

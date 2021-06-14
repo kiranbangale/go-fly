@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Store } from '@ngrx/store';
+import { AppState } from 'src/app/state/app.state';
 
 @Component({
   selector: 'app-search-result',
@@ -7,9 +10,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchResultComponent implements OnInit {
 
-  constructor() { }
+  public flights!: any;
+
+  constructor(
+    private store: Store<AppState>,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
+    this.store.select(state => state).subscribe(data => {
+      this.flights = data;
+    });
+  }
+
+  sortBy() {
+    this.router.navigate(['flights/sortFlights']);
+  }
+
+  filter() {
+    this.router.navigate(['flights/filterFlights']);
   }
 
 }

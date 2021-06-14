@@ -906,366 +906,842 @@
             {
                 "id": 218,
                 "name": "Air India Limited",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 241,
                 "name": "Air Sahara",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 569,
                 "name": "Air India Express",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 1026,
                 "name": "Alliance Air",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 1370,
                 "name": "Blue Dart Aviation",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2001,
                 "name": "Deccan Aviation",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2575,
                 "name": "Go Air",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2634,
                 "name": "Gujarat Airways",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2850,
                 "name": "IndiGo Airlines",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2851,
                 "name": "India International Airways",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2852,
                 "name": "Indian Air Force",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 2853,
                 "name": "Indian Airlines",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 3000,
                 "name": "Jet Airways",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 3142,
                 "name": "Kingfisher Airlines",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 3907,
                 "name": "Paramount Airways",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 3918,
                 "name": "Pawan Hans",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 4375,
                 "name": "Spicejet",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 13105,
                 "name": "Air India Regional",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 13106,
                 "name": "MDLR Airlines",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 13107,
                 "name": "Jagson Airlines",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 13905,
                 "name": "Skyline nepc",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 16327,
                 "name": "Indya Airline Group",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 16362,
                 "name": "OCEAN AIR CARGO",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 16738,
                 "name": "NEPC Airlines",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 16901,
                 "name": "12 North",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 19451,
                 "name": "Air Costa",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 20264,
                 "name": "Air Vistara",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 20286,
                 "name": "Air Pegasus",
-                "cost": {
-                    "basic": 225,
-                    "echo": 65,
-                    "class": 5656
-                },
-                "numberOfStops": 2,
-                "timeFrom": 1,
-                "timeTo": 2,
-                "avaliableSeats": 4
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
             },
             {
                 "id": 21270,
