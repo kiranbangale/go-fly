@@ -1,13 +1,15 @@
-import { FlightDataModel } from "../models/flight/flights.model";
+import { FlightDataModel, SearchFlightModel } from "../models/flight/flights.model";
 
 export interface AppState {
     loader: boolean;
     error: boolean;
     flightData: FlightDataModel;
+    searchResults: SearchFlightModel;
 }
 
 export const initialAppState: any = {
     loader: false,
     error: false,
-    flightData: null
+    flightData: null,
+    searchResults: null
 };

@@ -7,6 +7,8 @@ $colorBlue: #05407a;
 $colorLightBlue: #e8fcff;
 $colorGreen: #048c38;
 $colorText: #666666;
+$colorInvalid:#a80707;
+
 $fontSize: 12px;
 $borderRadious: 5px;
 
@@ -24,7 +26,13 @@ $borderRadious: 5px;
     font-size: 1.5em;
 }
 
+@mixin disabledBtn {
+    background:$colorText;
+    color: $colorLightBlue;
+}
+
 body{
     font-family: $font;
     color: $colorText;
+    margin: 0;
 }

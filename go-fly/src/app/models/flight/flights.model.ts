@@ -3,6 +3,7 @@ export interface FlightDataModel {
         airports: AirportListModel[];
         passengerType: PassengerTypeModel[];
         classType: ClassTypeModel[];
+        searchResults: SearchFlightModel;
     }
 }
 

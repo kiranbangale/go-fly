@@ -1,12 +1,19 @@
-@import './../../../styles.scss';
+@import './../../../../styles.scss';
 
 .form-group {
     fieldset{
         margin: 1em;
         border-radius: $borderRadious;
         padding: 0;
+        &.invalid{
+            border-color: $colorInvalid;
+            legend{
+                color: $colorInvalid;
+            }
+        }
         legend {
             margin: 0 15px;
+            font-size: 0.8rem;
         }
         .form-control{
             box-shadow: none;
@@ -14,6 +21,7 @@
             height: 4em;
             width: 100%;
             outline: none;
+            background-color: #ffffff;
             option{
                 @include textStyle;
             }
@@ -21,6 +29,10 @@
                 display: none;
               }
         }
+    }
+    .invalid{
+        color: $colorInvalid;
+        margin: 15px;
     }
     .date-group{
         display: flex;
@@ -34,6 +46,9 @@
     .submitBtn{
         margin:15px;
         button {
+            &.invalidBtn{
+                @include disabledBtn;
+            }
             @include greenBtn;
         }
     }

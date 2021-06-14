@@ -1,0 +1,108 @@
+<form #searchForm="ngForm" (ngSubmit)="onSubmit(searchFlightForm)" novalidate>
+    <div class="form-group">
+
+        <fieldset [ngClass]="{'invalid': departure.invalid && (departure.dirty || departure.touched)}">
+            <legend>Departure</legend>
+            <select class="form-control" id="departure" name="departure" required
+                [(ngModel)]="searchFlightForm.departure" #departure="ngModel"
+                appSameAirport="{{searchFlightForm.destination}}">
+                <option class="placeholder" selected disabled value="">Airport or city</option>
+                <option *ngFor="let airport of flightData.app.flightData?.data.airports" [value]="airport.id">
+                    {{airport.name}}
+                </option>
+            </select>
+        </fieldset>
+        <div class="invalid" *ngIf="departure.invalid && (departure.dirty || departure.touched)">
+            <span *ngIf="departure.errors?.required">Please select departure.</span>
+            <span *ngIf="departure.errors?.sameAirport">Please Select another departure.</span>
+        </div>
+
+        <fieldset [ngClass]="{'invalid': destination.invalid && (destination.dirty || destination.touched)}">
+            <legend>Destination</legend>
+            <select class="form-control" id="destination" name="destination" required
+                [(ngModel)]="searchFlightForm.destination" #destination="ngModel"
+                appSameAirport="{{searchFlightForm.departure}}">
+                <option class="placeholder" selected disabled value="">Airport or city</option>
+                <option *ngFor="let airport of flightData.app.flightData?.data.airports" [value]="airport.id">
+                    {{airport.name}}
+                </option>
+            </select>
+        </fieldset>
+        <div class="invalid" *ngIf="destination.invalid && (destination.dirty || destination.touched)">
+            <span *ngIf="destination.errors?.required">Please select destination.</span>
+            <span *ngIf="destination.errors?.sameAirport">Please Select another destination.</span>
+        </div>
+
+        <div class="date-group">
+            <fieldset class="date-fieldset"
+                [ngClass]="{'invalid': departureDate.invalid && (departureDate.dirty || departureDate.touched)}">
+                <legend>Departure Date</legend>
+                <input class="form-control" type="date" id="departureDate" name="departureDate" [value]=""
+                    [(ngModel)]="searchFlightForm.departureDate" required [min]="minDate" [max]="maxDate"
+                    #departureDate="ngModel">
+            </fieldset>
+
+            <fieldset class="date-fieldset"
+                [ngClass]="{'invalid': returnDate.invalid && (returnDate.dirty || returnDate.touched)}">
+                <legend>Return Date</legend>
+                <input class="form-control" type="date" id="returnDate" name="returnDate" [value]=""
+                    [(ngModel)]="searchFlightForm.returnDate" required [min]="searchFlightForm.departureDate"
+                    [max]="maxDate" #returnDate="ngModel">
+            </fieldset>
+        </div>
+
+        <div class="invalid" *ngIf="departureDate.invalid && (departureDate.dirty || departureDate.touched)">
+            <span *ngIf="departureDate.errors?.required">Please select departure date.</span>
+            <span *ngIf="departureDate.errors?.maxDate">Please select valid departure date.</span>
+            <span *ngIf="departureDate.errors?.minDate">Please select valid departure date.</span>
+        </div>
+        <div class="invalid" *ngIf="returnDate.invalid && (returnDate.dirty || returnDate.touched)">
+            <span *ngIf="returnDate.errors?.required">Please select departure date.</span>
+            <span *ngIf="returnDate.errors?.maxDate">Please select valid departure date.</span>
+            <span *ngIf="returnDate.errors?.minDate">Please select valid departure date.</span>
+        </div>
+
+        <div class="date-group">
+            <fieldset class="date-fieldset"
+                [ngClass]="{'invalid': passengerType.invalid && (passengerType.dirty || passengerType.touched)}">
+                <legend>Travellers</legend>
+                <input class="form-control" id="passengerCount" name="passengerCount" required type="number"
+                    [(ngModel)]="searchFlightForm.travellers.count" value="passengerType.count" min="1"
+                    #passengerCount="ngModel">
+                <select class="form-control" id="passengerType" name="passengerType" required
+                    [(ngModel)]="searchFlightForm.travellers.type" #passengerType="ngModel">
+                    <option *ngFor="let passengerType of flightData.app.flightData?.data.passengerType"
+                        [value]="passengerType.code">
+                        {{passengerType.name}}
+                    </option>
+                </select>
+            </fieldset>
+
+            <fieldset class="date-fieldset"
+                [ngClass]="{'invalid': travellerClass.invalid && (travellerClass.dirty || travellerClass.touched)}">
+                <legend>Class</legend>
+                <select class="form-control" id="travellerClass" name="travellerClass" required
+                    [(ngModel)]="searchFlightForm.travellerClass" #travellerClass="ngModel">
+                    <option *ngFor="let travellerClass of flightData.app.flightData?.data.classType"
+                        [value]="travellerClass.code">
+                        {{travellerClass.name}}
+                    </option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="invalid" *ngIf="passengerType.invalid && (passengerType.dirty || passengerType.touched)">
+            <span *ngIf="passengerType.errors?.required">Please select passenger type.</span>
+        </div>
+        <div class="invalid" *ngIf="travellerClass.invalid && (travellerClass.dirty || travellerClass.touched)">
+            <span *ngIf="travellerClass.errors?.required">Please select class.</span>
+        </div>
+
+        <div class="submitBtn">
+            <button type="submit">Search
+                flights</button>
+            <!-- <button type="submit" [disabled]="!searchForm.valid" [ngClass]="{'invalidBtn': !searchForm.valid}">Search
+                flights</button> -->
+        </div>
+    </div>
+</form>
