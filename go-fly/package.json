@@ -4,7 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:de": "ng serve --configuration=de",
+    "start:fr": "ng serve --configuration=fr",
+    "start:it": "ng serve --configuration=it",
     "build": "ng build",
+    "translate": "ng xi18n --out-file src/locale/messages.xlf",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -39,6 +43,7 @@
     "@angular-devkit/build-angular": "~12.0.3",
     "@angular/cli": "~12.0.3",
     "@angular/compiler-cli": "~12.0.3",
+    "@angular/localize": "^12.0.3",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "angular-cli-ghpages": "^1.0.0-rc.2",
