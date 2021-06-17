@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { AppState } from 'src/app/state/app.state';
 
 @Component({
   selector: 'app-topbar',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopbarComponent implements OnInit {
 
-  constructor() { }
+  title: any;
+
+  constructor(private store: Store<AppState>) { }
 
   ngOnInit(): void {
+    this.store.select(state => state).subscribe(data => {
+      this.title = data;
+    });
+
   }
 
 }

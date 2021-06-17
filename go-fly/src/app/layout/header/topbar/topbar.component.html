@@ -1,5 +1,8 @@
 <div class="topbar">
-    <h2 class="logo">
+    <h2 class="logo" *ngIf="!title.app.currentTab">
         <span>cx</span>Loyalty
+    </h2>
+    <h2 class="title">
+        {{title.app.currentTab}}
     </h2>
 </div>

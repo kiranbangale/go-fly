@@ -1,8 +1,11 @@
 export const TABS = {
-    FLIGHTS: 'flights',
-    HOTELS: 'hotels',
-    CARS: 'cars',
-    ACTIVITIES: 'activities'
+    FLIGHTS: 'Flights',
+    FLIGHT_RESULTS: '',
+    SORT_FLIGHTS: 'Sort By',
+    FILTER_FLIGHTS: 'Filter By',
+    HOTELS: 'Hotels',
+    CARS: 'Cars',
+    ACTIVITIES: 'Activities'
 }
 
 export const tabs = [

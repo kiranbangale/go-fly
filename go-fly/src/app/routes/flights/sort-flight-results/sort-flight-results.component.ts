@@ -1,23 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Store } from '@ngrx/store';
+import { TABS } from 'src/app/constants/tabs.const';
 import { FlightService } from 'src/app/services/flight.service';
+import { CurrentTab } from 'src/app/state/app.actions';
+import { AppState } from 'src/app/state/app.state';
 
 @Component({
   selector: 'app-sort-flight-results',
   templateUrl: './sort-flight-results.component.html',
   styleUrls: ['./sort-flight-results.component.scss']
 })
-export class SortFlightResultsComponent implements OnInit {
+export class SortFlightResultsComponent implements OnInit, OnDestroy {
 
   sortOptions: any;
   sortBy: any;
 
   constructor(
+    private store: Store<AppState>,
     private flightService: FlightService,
     private router: Router
   ) { }
 
   ngOnInit(): void {
+    this.store.dispatch(new CurrentTab(TABS.SORT_FLIGHTS));
+
     this.sortOptions = [
       {
         id: 1,
@@ -57,6 +64,10 @@ export class SortFlightResultsComponent implements OnInit {
   sort(): void {
     this.flightService.sortResults(this.sortBy);
     this.router.navigate(['flights/searchResult']);
+  }
+
+  ngOnDestroy(): void {
+    this.store.dispatch(new CurrentTab(''));
   }
 
 }

@@ -22,12 +22,10 @@
             width: 100%;
             outline: none;
             background-color: #ffffff;
+            color:$colorText;
             option{
                 @include textStyle;
             }
-             .placeholder {
-                display: none;
-              }
         }
     }
     .invalid{

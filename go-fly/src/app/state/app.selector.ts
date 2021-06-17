@@ -7,6 +7,7 @@ export const selectError = (state: AppState) => state.error;
 export const selectFlightData = (state: AppState) => state.flightData;
 export const selectSearchResults = (state: AppState) => state.searchResults;
 export const selectSortById = (state: AppState) => state.sortById;
+export const selectCurrentTab = (state: AppState) => state.currentTab;
 
 export const getSelectLoader = createSelector(
     selectLoader,
@@ -31,4 +32,9 @@ export const getSelectSearchedData = createSelector(
 export const getSelectSortById = createSelector(
     selectSortById,
     (data: number) => data
+);
+
+export const getCurrentTab = createSelector(
+    selectCurrentTab,
+    (data: string) => data
 );

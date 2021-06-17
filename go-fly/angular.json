@@ -22,6 +22,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
+          "en": "src/locale/messages.en.xlf",
           "de": "src/locale/messages.de.xlf",
           "fr": "src/locale/messages.fr.xlf",
           "it": "src/locale/messages.it.xlf"
@@ -33,7 +34,6 @@
           "options": {
             "i18nMissingTranslation": "error",
             "localize": true,
-            "aot": true,
             "outputPath": "dist/go-fly",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -67,6 +67,11 @@
               ],
               "outputHashing": "all"
             },
+            "en": {
+              "localize": [
+                "en"
+              ]
+            },
             "de": {
               "localize": [
                 "de"
@@ -83,7 +88,7 @@
               ]
             },
             "development": {
-              "buildOptimizer": false,
+              "buildOptimizer": true,
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
@@ -101,6 +106,18 @@
             },
             "development": {
               "browserTarget": "go-fly:build:development"
+            },
+            "en": {
+              "browserTarget": "go-fly:build:en"
+            },
+            "de": {
+              "browserTarget": "go-fly:build:de"
+            },
+            "fr": {
+              "browserTarget": "go-fly:build:de"
+            },
+            "it": {
+              "browserTarget": "go-fly:build:de"
             }
           },
           "defaultConfiguration": "development"

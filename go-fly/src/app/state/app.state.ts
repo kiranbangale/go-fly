@@ -6,6 +6,7 @@ export interface AppState {
     flightData: FlightDataModel;
     searchResults: SearchFlightModel;
     sortById: number;
+    currentTab: string;
 }
 
 export const initialAppState: any = {
@@ -13,5 +14,6 @@ export const initialAppState: any = {
     error: false,
     flightData: null,
     searchResults: null,
-    sortById: 0
+    sortById: 0,
+    currentTab: ''
 };

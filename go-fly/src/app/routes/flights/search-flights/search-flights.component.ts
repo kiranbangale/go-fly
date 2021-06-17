@@ -5,7 +5,7 @@ import * as moment from 'moment';
 import { AppState } from 'src/app/state/app.state';
 import { Store } from '@ngrx/store';
 import { FlightService } from 'src/app/services/flight.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-search-flights',

@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { Store } from "@ngrx/store";
 import { Observable } from "rxjs";
 import { FlightDataModel, SearchFlightModel } from "../models/flight/flights.model";
-import { FlightData, SearchResultData, SortBy } from "../state/app.actions";
+import { CurrentTab, FlightData, SearchResultData, SortBy } from "../state/app.actions";
 import { AppState } from "../state/app.state";
 
 @Injectable({
@@ -20,6 +20,10 @@ export class FlightService {
     }
 
     public searchResults(searchFormInputs: SearchFlightModel, data: any): void {
+        //         let tabHeaderData =
+        //             `${searchFormInputs.departure} -> ${searchFormInputs.destination}
+        // ${searchFormInputs.departureDate}-${searchFormInputs.returnDate} | ${searchFormInputs.travellers.count}${searchFormInputs.travellers.type}`
+        // this.store.dispatch(new CurrentTab(tabHeaderData));
         this.store.dispatch(new SearchResultData(data.app.flightData.data.searchResults));
     }
 

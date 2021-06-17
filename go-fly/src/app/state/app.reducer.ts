@@ -28,6 +28,11 @@ export function reducer(state: AppState = initialAppState, action: any) {
                 ...state,
                 sortById: action.payload
             };
+        case AppActions.CURRENT_TAB:
+            return {
+                ...state,
+                currentTab: action.payload
+            };
         default:
             return state;
     }

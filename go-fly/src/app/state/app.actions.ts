@@ -6,7 +6,8 @@ export const AppActions = {
     ERROR: 'ERROR',
     FLIGHT_DATA: 'FLIGHT_DATA',
     SEARCH_RESULT: 'SEARCH_RESULT',
-    SORT_BY: 'SORT_BY'
+    SORT_BY: 'SORT_BY',
+    CURRENT_TAB: 'CURRENT_TAB'
 };
 
 
@@ -33,4 +34,9 @@ export class SearchResultData implements Action {
 export class SortBy implements Action {
     readonly type = AppActions.SORT_BY;
     constructor(public readonly payload: number) { }
+}
+
+export class CurrentTab implements Action {
+    readonly type = AppActions.CURRENT_TAB;
+    constructor(public readonly payload: string) { }
 }

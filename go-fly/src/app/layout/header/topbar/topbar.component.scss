@@ -5,6 +5,7 @@
     background: $colorBlue;
     padding: 10px;
     text-align: center;
+    justify-content: center;
     .logo{
         padding: 5px;
         display: block;
@@ -14,5 +15,8 @@
         span{
             color: #4982fc;
         }
+    }
+    .title{
+        color: $colorLightBlue;
     }
 }

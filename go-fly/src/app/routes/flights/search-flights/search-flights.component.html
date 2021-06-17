@@ -37,17 +37,19 @@
             <fieldset class="date-fieldset"
                 [ngClass]="{'invalid': departureDate.invalid && (departureDate.dirty || departureDate.touched)}">
                 <legend>Departure Date</legend>
-                <input class="form-control" type="date" id="departureDate" name="departureDate" [value]=""
-                    [(ngModel)]="searchFlightForm.departureDate" required [min]="minDate" [max]="maxDate"
+                <input class="form-control" type="date" id="departureDate" placeholder="Departure date"
+                    name="departureDate" [value]="" [(ngModel)]="searchFlightForm.departureDate" required
+                    [min]="minDate" [max]="searchFlightForm.returnDate?searchFlightForm.returnDate:maxDate"
                     #departureDate="ngModel">
             </fieldset>
 
             <fieldset class="date-fieldset"
                 [ngClass]="{'invalid': returnDate.invalid && (returnDate.dirty || returnDate.touched)}">
                 <legend>Return Date</legend>
-                <input class="form-control" type="date" id="returnDate" name="returnDate" [value]=""
-                    [(ngModel)]="searchFlightForm.returnDate" required [min]="searchFlightForm.departureDate"
-                    [max]="maxDate" #returnDate="ngModel">
+                <input class="form-control" type="date" id="returnDate" placeholder="Return date" name="returnDate"
+                    [value]="" [(ngModel)]="searchFlightForm.returnDate" required
+                    [min]="searchFlightForm.departureDate?searchFlightForm.departureDate:minDate" [max]="maxDate"
+                    #returnDate="ngModel">
             </fieldset>
         </div>
 
@@ -66,11 +68,12 @@
             <fieldset class="date-fieldset"
                 [ngClass]="{'invalid': passengerType.invalid && (passengerType.dirty || passengerType.touched)}">
                 <legend>Travellers</legend>
-                <input class="form-control" id="passengerCount" name="passengerCount" required type="number"
-                    [(ngModel)]="searchFlightForm.travellers.count" value="passengerType.count" min="1"
+                <input class="form-control" id="passengerCount" placeholder="Count" name="passengerCount" required
+                    type="number" [(ngModel)]="searchFlightForm.travellers.count" value="passengerType.count" min="1"
                     #passengerCount="ngModel">
                 <select class="form-control" id="passengerType" name="passengerType" required
                     [(ngModel)]="searchFlightForm.travellers.type" #passengerType="ngModel">
+                    <option class="placeholder" selected disabled value="">Travellers</option>
                     <option *ngFor="let passengerType of flightData.app.flightData?.data.passengerType"
                         [value]="passengerType.code">
                         {{passengerType.name}}
@@ -83,6 +86,7 @@
                 <legend>Class</legend>
                 <select class="form-control" id="travellerClass" name="travellerClass" required
                     [(ngModel)]="searchFlightForm.travellerClass" #travellerClass="ngModel">
+                    <option class="placeholder" selected disabled value="">Select class</option>
                     <option *ngFor="let travellerClass of flightData.app.flightData?.data.classType"
                         [value]="travellerClass.code">
                         {{travellerClass.name}}
@@ -99,6 +103,7 @@
         </div>
 
         <div class="submitBtn">
+            <!-- <button type="submit">Search flights</button> -->
             <button type="submit" [disabled]="!searchForm.valid" [ngClass]="{'invalidBtn': !searchForm.valid}">Search
                 flights</button>
         </div>
