@@ -8,7 +8,7 @@
     "start:fr": "ng serve --configuration=fr",
     "start:it": "ng serve --configuration=it",
     "build": "ng build",
-    "deploy": "ng build --prod --base-href https: //github.com/kiranbangale/go-fly/ && angular-cli-ghpages --branch gh-pages ngh --dir=dist/go-gly",
+    "deploy": "ng build --prod --base-href https://github.com/kiranbangale/go-fly/ && angular-cli-ghpages --branch gh-pages ngh --dir=dist/go-fly/en",
     "translate": "ng xi18n --out-file src/locale/messages.xlf",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

@@ -114,10 +114,10 @@
               "browserTarget": "go-fly:build:de"
             },
             "fr": {
-              "browserTarget": "go-fly:build:de"
+              "browserTarget": "go-fly:build:fr"
             },
             "it": {
-              "browserTarget": "go-fly:build:de"
+              "browserTarget": "go-fly:build:it"
             }
           },
           "defaultConfiguration": "development"
