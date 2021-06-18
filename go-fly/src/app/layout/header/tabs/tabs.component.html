@@ -1,8 +1,0 @@
-<nav>
-    <ul>
-        <li *ngFor="let tab of tabs" routerLinkActive="active">
-            <i class="fa" [class]="tab.icon"></i>
-            <a [routerLink]="tab.name">{{tab.name | titlecase}}</a>
-        </li>
-    </ul>
-</nav>
