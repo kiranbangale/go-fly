@@ -1,0 +1,12 @@
+@import './../../../../styles.scss';
+.sort-options{
+    margin: 15px;
+    .sort-option{
+        margin: 2em 1em;
+        color: #666;
+        font-size: 18px;
+    }
+    button{
+        @include greenBtn;
+    }
+}

@@ -1,0 +1,48 @@
+<div class="details">
+    <h3>
+        <i class="fa" class="fa fa-plane"></i>
+        {{details.name}}
+    </h3>
+    <div class="duration-details">
+
+        <div class="time-details">
+            <span class="bold">
+                {{details.timeFrom}}
+            </span>
+            <span>
+                {{details.from}}
+            </span>
+        </div>
+        <div class="time-details">
+            <span>
+                {{details.duration}}
+            </span>
+            <span>
+                {{details.stops}}
+            </span>
+        </div>
+        <div class="time-details">
+            <span class="bold">
+                {{details.timeTo}}
+            </span>
+            <span>
+                {{details.to}}
+            </span>
+        </div>
+    </div>
+    <div class="cost-details">
+        <ul>
+            <li *ngFor="let cost of details.costDetails">
+                <span class="available-seats">
+                    {{cost.avaliableSeats}} seats left
+                </span>
+                <span>
+                    ${{cost.price}}
+                </span>
+                <span>
+                    {{cost.type}}
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>

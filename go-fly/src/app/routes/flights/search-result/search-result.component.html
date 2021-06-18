@@ -1,0 +1,11 @@
+<div class="search-results">
+    <div class="flight-details">
+        <app-flight-details *ngFor="let details of flights.app.searchResults" [details]="details"></app-flight-details>
+    </div>
+    <div class="search-controls">
+        <div class="btn-container">
+            <button (click)="sortBy()">Sort By</button>
+            <button (click)="filter()">Filters</button>
+        </div>
+    </div>
+</div>

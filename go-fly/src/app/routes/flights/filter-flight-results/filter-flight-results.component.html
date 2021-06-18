@@ -1,0 +1,37 @@
+<div class="filter-results">
+    <div class="price-range">
+        <h3>
+            Price range
+        </h3>
+        <hr>
+        <div class="range">
+            <fieldset class="date-fieldset">
+                <legend>Minimum price</legend>
+                <input class="form-control" id="min" name="min" type="number" [(ngModel)]="minPrice" [value]="minPrice">
+            </fieldset>
+            <fieldset class="date-fieldset">
+                <legend>Maximum price</legend>
+                <input class="form-control" id="max" name="max" type="number" [(ngModel)]="maxPrice" [value]="maxPrice">
+            </fieldset>
+        </div>
+        <input class="range-input" type="range" [min]="minPrice" [max]="maxPrice" value="50">
+    </div>
+    <div class="price-range">
+        <h3>
+            Booking class
+        </h3>
+        <hr>
+        <div class="booking-class" *ngFor="let bookingType of bookingClass">
+            <input type="checkbox" [value]="bookingType.id">
+            <label> {{bookingType.label}}</label>
+            <span>
+                {{bookingType.price}}
+            </span>
+        </div>
+    </div>
+    <hr>
+    <div class="btn">
+        <button class="disabled" (click)="filter()">Reset all</button>
+        <button class="" (click)="filter()">Apply</button>
+    </div>
+</div>

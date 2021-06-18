@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+$fa-font-path: "../../../node_modules/font-awesome/fonts";
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
+
+$font: Helvetica, sans-serif;
+$colorBlue: #05407a;
+$colorLightBlue: #e8fcff;
+$colorGreen: #048c38;
+$colorText: #666666;
+$colorTextBlack: #333;
+$colorInvalid:#a80707;
+$colorWarning: #ffda54;
+
+$fontSize: 12px;
+$borderRadius: 5px;
+$boxShadow: 1px 3px 3px 1px $colorText;
+
+@mixin textStyle {
+    color: $colorText;
+    font-size: $fontSize;
+}
+
+@mixin greenBtn {
+    padding: 18px;
+    width: 100%;
+    background:$colorGreen;
+    border-radius: $borderRadius;
+    color: $colorLightBlue;
+    font-size: 1.5em;
+}
+
+@mixin disabledBtn {
+    background:$colorText;
+    color: $colorLightBlue;
+}
+
+body{
+    font-family: $font;
+    color: $colorText;
+    margin: 0;
+}

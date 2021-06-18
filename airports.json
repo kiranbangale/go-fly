@@ -1,0 +1,1752 @@
+{
+    "data": {
+        "airports": [
+            {
+                "name": "Sardar Vallabhbhai Patel International Airport",
+                "city": "Ahmedabad",
+                "country": "India",
+                "id": 1
+            },
+            {
+                "name": "Akola Airport",
+                "city": "Akola",
+                "country": "India",
+                "id": 2
+            },
+            {
+                "name": "Aurangabad Airport",
+                "city": "Aurangabad",
+                "country": "India",
+                "id": 3
+            },
+            {
+                "name": "Chhatrapati Shivaji International Airport",
+                "city": "Mumbai",
+                "country": "India",
+                "id": 4
+            },
+            {
+                "name": "Bilaspur Airport",
+                "city": "Bilaspur",
+                "country": "India",
+                "id": 5
+            },
+            {
+                "name": "Bhuj Airport",
+                "city": "Bhuj",
+                "country": "India",
+                "id": 6
+            },
+            {
+                "name": "Belgaum Airport",
+                "city": "Belgaum",
+                "country": "India",
+                "id": 7
+            },
+            {
+                "name": "Vadodara Airport",
+                "city": "Baroda",
+                "country": "India",
+                "id": 8
+            },
+            {
+                "name": "Raja Bhoj International Airport",
+                "city": "Bhopal",
+                "country": "India",
+                "id": 9
+            },
+            {
+                "name": "Bhavnagar Airport",
+                "city": "Bhaunagar",
+                "country": "India",
+                "id": 10
+            },
+            {
+                "name": "Daman Airport",
+                "city": "Daman",
+                "country": "India",
+                "id": 11
+            },
+            {
+                "name": "Deesa Airport",
+                "city": "Deesa",
+                "country": "India",
+                "id": 12
+            },
+            {
+                "name": "Guna Airport",
+                "city": "Guna",
+                "country": "India",
+                "id": 13
+            },
+            {
+                "name": "Dabolim Airport",
+                "city": "Goa",
+                "country": "India",
+                "id": 14
+            },
+            {
+                "name": "Devi Ahilyabai Holkar Airport",
+                "city": "Indore",
+                "country": "India",
+                "id": 15
+            },
+            {
+                "name": "Jabalpur Airport",
+                "city": "Jabalpur",
+                "country": "India",
+                "id": 16
+            },
+            {
+                "name": "Jamnagar Airport",
+                "city": "Jamnagar",
+                "country": "India",
+                "id": 17
+            },
+            {
+                "name": "Kandla Airport",
+                "city": "Kandla",
+                "country": "India",
+                "id": 18
+            },
+            {
+                "name": "Khajuraho Airport",
+                "city": "Khajuraho",
+                "country": "India",
+                "id": 19
+            },
+            {
+                "name": "Kolhapur Airport",
+                "city": "Kolhapur",
+                "country": "India",
+                "id": 20
+            },
+            {
+                "name": "Keshod Airport",
+                "city": "Keshod",
+                "country": "India",
+                "id": 21
+            },
+            {
+                "name": "Dr. Babasaheb Ambedkar International Airport",
+                "city": "Nagpur",
+                "country": "India",
+                "id": 22
+            },
+            {
+                "name": "Nashik Airport",
+                "city": "Nasik Road",
+                "country": "India",
+                "id": 23
+            },
+            {
+                "name": "Pune Airport",
+                "city": "Pune",
+                "country": "India",
+                "id": 24
+            },
+            {
+                "name": "Porbandar Airport",
+                "city": "Porbandar",
+                "country": "India",
+                "id": 25
+            },
+            {
+                "name": "Rajkot Airport",
+                "city": "Rajkot",
+                "country": "India",
+                "id": 26
+            },
+            {
+                "name": "Raipur Airport",
+                "city": "Raipur",
+                "country": "India",
+                "id": 27
+            },
+            {
+                "name": "Solapur Airport",
+                "city": "Sholapur",
+                "country": "India",
+                "id": 28
+            },
+            {
+                "name": "Surat Airport",
+                "city": "Surat",
+                "country": "India",
+                "id": 29
+            },
+            {
+                "name": "Maharana Pratap Airport",
+                "city": "Udaipur",
+                "country": "India",
+                "id": 30
+            },
+            {
+                "name": "Along Airport",
+                "city": "Along",
+                "country": "India",
+                "id": 31
+            },
+            {
+                "name": "Agartala Airport",
+                "city": "Agartala",
+                "country": "India",
+                "id": 32
+            },
+            {
+                "name": "Lengpui Airport",
+                "city": "Aizwal",
+                "country": "India",
+                "id": 33
+            },
+            {
+                "name": "Bagdogra Airport",
+                "city": "Baghdogra",
+                "country": "India",
+                "id": 34
+            },
+            {
+                "name": "Bokaro Airport",
+                "city": "Bokaro",
+                "country": "India",
+                "id": 35
+            },
+            {
+                "name": "Biju Patnaik Airport",
+                "city": "Bhubaneswar",
+                "country": "India",
+                "id": 36
+            },
+            {
+                "name": "Netaji Subhash Chandra Bose International Airport",
+                "city": "Kolkata",
+                "country": "India",
+                "id": 37
+            },
+            {
+                "name": "Cooch Behar Airport",
+                "city": "Cooch-behar",
+                "country": "India",
+                "id": 38
+            },
+            {
+                "name": "Dhanbad Airport",
+                "city": "Dhanbad",
+                "country": "India",
+                "id": 39
+            },
+            {
+                "name": "Gaya Airport",
+                "city": "Gaya",
+                "country": "India",
+                "id": 40
+            },
+            {
+                "name": "Hirakud Airport",
+                "city": "Hirakud",
+                "country": "India",
+                "id": 41
+            },
+            {
+                "name": "Imphal Airport",
+                "city": "Imphal",
+                "country": "India",
+                "id": 42
+            },
+            {
+                "name": "Jharsuguda Airport",
+                "city": "Jharsuguda",
+                "country": "India",
+                "id": 43
+            },
+            {
+                "name": "Sonari Airport",
+                "city": "Jamshedpur",
+                "country": "India",
+                "id": 44
+            },
+            {
+                "name": "Jorhat Airport",
+                "city": "Jorhat",
+                "country": "India",
+                "id": 45
+            },
+            {
+                "name": "Kailashahar Airport",
+                "city": "Kailashahar",
+                "country": "India",
+                "id": 46
+            },
+            {
+                "name": "Silchar Airport",
+                "city": "Silchar",
+                "country": "India",
+                "id": 47
+            },
+            {
+                "name": "North Lakhimpur Airport",
+                "city": "Lilabari",
+                "country": "India",
+                "id": 48
+            },
+            {
+                "name": "Dibrugarh Airport",
+                "city": "Mohanbari",
+                "country": "India",
+                "id": 49
+            },
+            {
+                "name": "Muzaffarpur Airport",
+                "city": "Mazuffarpur",
+                "country": "India",
+                "id": 50
+            },
+            {
+                "name": "Nawapara Airport",
+                "city": "Nawapara",
+                "country": "India",
+                "id": 51
+            },
+            {
+                "name": "Panagarh Air Force Station",
+                "city": "Panagarh",
+                "country": "India",
+                "id": 52
+            },
+            {
+                "name": "Lok Nayak Jayaprakash Airport",
+                "city": "Patina",
+                "country": "India",
+                "id": 53
+            },
+            {
+                "name": "Purnea Airport",
+                "city": "Purnea",
+                "country": "India",
+                "id": 54
+            },
+            {
+                "name": "Birsa Munda Airport",
+                "city": "Ranchi",
+                "country": "India",
+                "id": 55
+            },
+            {
+                "name": "Rourkela Airport",
+                "city": "Rourkela",
+                "country": "India",
+                "id": 56
+            },
+            {
+                "name": "Utkela Airport",
+                "city": "Utkela",
+                "country": "India",
+                "id": 57
+            },
+            {
+                "name": "Vishakhapatnam Airport",
+                "city": "Vishakhapatnam",
+                "country": "India",
+                "id": 58
+            },
+            {
+                "name": "Ziro Airport",
+                "city": "Zero",
+                "country": "India",
+                "id": 59
+            },
+            {
+                "name": "Agra Airport",
+                "city": "Agra",
+                "country": "India",
+                "id": 60
+            },
+            {
+                "name": "Allahabad Airport",
+                "city": "Allahabad",
+                "country": "India",
+                "id": 61
+            },
+            {
+                "name": "Sri Guru Ram Dass Jee International Airport",
+                "city": "Amritsar",
+                "country": "India",
+                "id": 62
+            },
+            {
+                "name": "Nal Airport",
+                "city": "Bikaner",
+                "country": "India",
+                "id": 63
+            },
+            {
+                "name": "Bakshi Ka Talab Air Force Station",
+                "city": "Bakshi Ka Talab",
+                "country": "India",
+                "id": 64
+            },
+            {
+                "name": "Lal Bahadur Shastri Airport",
+                "city": "Varanasi",
+                "country": "India",
+                "id": 65
+            },
+            {
+                "name": "Kullu Manali Airport",
+                "city": "Kulu",
+                "country": "India",
+                "id": 66
+            },
+            {
+                "name": "Bhatinda Air Force Station",
+                "city": "Bhatinda",
+                "country": "India",
+                "id": 67
+            },
+            {
+                "name": "Bhiwani Airport",
+                "city": "Bhiwani",
+                "country": "India",
+                "id": 68
+            },
+            {
+                "name": "Bareilly Air Force Station",
+                "city": "Bareilly",
+                "country": "India",
+                "id": 69
+            },
+            {
+                "name": "Chandigarh Airport",
+                "city": "Chandigarh",
+                "country": "India",
+                "id": 70
+            },
+            {
+                "name": "Kanpur Airport",
+                "city": "Kanpur",
+                "country": "India",
+                "id": 71
+            },
+            {
+                "name": "Safdarjung Airport",
+                "city": "Delhi",
+                "country": "India",
+                "id": 72
+            },
+            {
+                "name": "Dehradun Airport",
+                "city": "Dehra Dun",
+                "country": "India",
+                "id": 73
+            },
+            {
+                "name": "Indira Gandhi International Airport",
+                "city": "Delhi",
+                "country": "India",
+                "id": 74
+            },
+            {
+                "name": "Gwalior Airport",
+                "city": "Gwalior",
+                "country": "India",
+                "id": 75
+            },
+            {
+                "name": "Hissar Airport",
+                "city": "Hissar",
+                "country": "India",
+                "id": 76
+            },
+            {
+                "name": "Jhansi Airport",
+                "city": "Jhansi",
+                "country": "India",
+                "id": 77
+            },
+            {
+                "name": "Jodhpur Airport",
+                "city": "Jodhpur",
+                "country": "India",
+                "id": 78
+            },
+            {
+                "name": "Jaipur International Airport",
+                "city": "Jaipur",
+                "country": "India",
+                "id": 79
+            },
+            {
+                "name": "Jaisalmer Airport",
+                "city": "Jaisalmer",
+                "country": "India",
+                "id": 80
+            },
+            {
+                "name": "Jammu Airport",
+                "city": "Jammu",
+                "country": "India",
+                "id": 81
+            },
+            {
+                "name": "Kanpur Civil Airport",
+                "city": "Kanpur",
+                "country": "India",
+                "id": 82
+            },
+            {
+                "name": "Kota Airport",
+                "city": "Kota",
+                "country": "India",
+                "id": 83
+            },
+            {
+                "name": "Ludhiana Airport",
+                "city": "Ludhiaha",
+                "country": "India",
+                "id": 84
+            },
+            {
+                "name": "Leh Kushok Bakula Rimpochee Airport",
+                "city": "Leh",
+                "country": "India",
+                "id": 85
+            },
+            {
+                "name": "Chaudhary Charan Singh International Airport",
+                "city": "Lucknow",
+                "country": "India",
+                "id": 86
+            },
+            {
+                "name": "Pathankot Airport",
+                "city": "Pathankot",
+                "country": "India",
+                "id": 87
+            },
+            {
+                "name": "Patiala Airport",
+                "city": "Patiala",
+                "country": "India",
+                "id": 88
+            },
+            {
+                "name": "Pantnagar Airport",
+                "city": "Nainital",
+                "country": "India",
+                "id": 89
+            },
+            {
+                "name": "Fursatganj Airport",
+                "city": "Raibarelli",
+                "country": "India",
+                "id": 90
+            },
+            {
+                "name": "Sarsawa Air Force Station",
+                "city": "Saharanpur",
+                "country": "India",
+                "id": 91
+            },
+            {
+                "name": "Sheikh ul Alam Airport",
+                "city": "Srinagar",
+                "country": "India",
+                "id": 92
+            },
+            {
+                "name": "Satna Airport",
+                "city": "Satna",
+                "country": "India",
+                "id": 93
+            },
+            {
+                "name": "Agatti Airport",
+                "city": "Agatti Island",
+                "country": "India",
+                "id": 94
+            },
+            {
+                "name": "Kempegowda International Airport",
+                "city": "Bangalore",
+                "country": "India",
+                "id": 95
+            },
+            {
+                "name": "Bellary Airport",
+                "city": "Bellary",
+                "country": "India",
+                "id": 96
+            },
+            {
+                "name": "Bidar Air Force Station",
+                "city": "Bidar",
+                "country": "India",
+                "id": 97
+            },
+            {
+                "name": "Vijayawada Airport",
+                "city": "Vijayawada",
+                "country": "India",
+                "id": 98
+            },
+            {
+                "name": "Coimbatore International Airport",
+                "city": "Coimbatore",
+                "country": "India",
+                "id": 99
+            },
+            {
+                "name": "Cochin International Airport",
+                "city": "Kochi",
+                "country": "India",
+                "id": 100
+            },
+            {
+                "name": "Calicut International Airport",
+                "city": "Calicut",
+                "country": "India",
+                "id": 101
+            },
+            {
+                "name": "Kadapa Airport",
+                "city": "Cuddapah",
+                "country": "India",
+                "id": 102
+            },
+            {
+                "name": "Car Nicobar Air Force Station",
+                "city": "Carnicobar",
+                "country": "India",
+                "id": 103
+            },
+            {
+                "name": "Dundigul Air Force Academy",
+                "city": "Dundigul",
+                "country": "India",
+                "id": 104
+            },
+            {
+                "name": "Begumpet Airport",
+                "city": "Hyderabad",
+                "country": "India",
+                "id": 105
+            },
+            {
+                "name": "Madurai Airport",
+                "city": "Madurai",
+                "country": "India",
+                "id": 106
+            },
+            {
+                "name": "Mangalore International Airport",
+                "city": "Mangalore",
+                "country": "India",
+                "id": 107
+            },
+            {
+                "name": "Chennai International Airport",
+                "city": "Madras",
+                "country": "India",
+                "id": 108
+            },
+            {
+                "name": "Nagarjuna Sagar Airport",
+                "city": "Nagarjunsagar",
+                "country": "India",
+                "id": 109
+            },
+            {
+                "name": "Vir Savarkar International Airport",
+                "city": "Port Blair",
+                "country": "India",
+                "id": 110
+            },
+            {
+                "name": "Pondicherry Airport",
+                "city": "Pendicherry",
+                "country": "India",
+                "id": 112
+            },
+            {
+                "name": "Rajahmundry Airport",
+                "city": "Rajahmundry",
+                "country": "India",
+                "id": 113
+            },
+            {
+                "name": "Salem Airport",
+                "city": "Salem",
+                "country": "India",
+                "id": 114
+            },
+            {
+                "name": "Tanjore Air Force Base",
+                "city": "Tanjore",
+                "country": "India",
+                "id": 115
+            },
+            {
+                "name": "Tirupati Airport",
+                "city": "Tirupeti",
+                "country": "India",
+                "id": 116
+            },
+            {
+                "name": "Tiruchirapally Civil Airport Airport",
+                "city": "Tiruchirappalli",
+                "country": "India",
+                "id": 117
+            },
+            {
+                "name": "Trivandrum International Airport",
+                "city": "Trivandrum",
+                "country": "India",
+                "id": 118
+            },
+            {
+                "name": "Tambaram Air Force Station",
+                "city": "Tambaram",
+                "country": "India",
+                "id": 119
+            },
+            {
+                "name": "Diu Airport",
+                "city": "Diu",
+                "country": "India",
+                "id": 120
+            },
+            {
+                "name": "Hubli Airport",
+                "city": "Hubli",
+                "country": "India",
+                "id": 121
+            },
+            {
+                "name": "Shillong Airport",
+                "city": "Shillong",
+                "country": "India",
+                "id": 122
+            },
+            {
+                "name": "Lokpriya Gopinath Bordoloi International Airport",
+                "city": "Guwahati",
+                "country": "India",
+                "id": 123
+            },
+            {
+                "name": "Dimapur Airport",
+                "city": "Dimapur",
+                "country": "India",
+                "id": 124
+            },
+            {
+                "name": "Tezpur Airport",
+                "city": "Tezpur",
+                "country": "India",
+                "id": 125
+            },
+            {
+                "name": "Gorakhpur Airport",
+                "city": "Gorakhpur",
+                "country": "India",
+                "id": 126
+            },
+            {
+                "name": "Kangra Airport",
+                "city": "Kangra",
+                "country": "India",
+                "id": 127
+            },
+            {
+                "name": "Nanded Airport",
+                "city": "Nanded",
+                "country": "India",
+                "id": 128
+            },
+            {
+                "name": "Shimla Airport",
+                "city": "Shimla",
+                "country": "India",
+                "id": 129
+            },
+            {
+                "name": "Mysore Airport",
+                "city": "Mysore",
+                "country": "India",
+                "id": 130
+            },
+            {
+                "name": "Nagaur Airport",
+                "city": "Nagaur",
+                "country": "India",
+                "id": 131
+            },
+            {
+                "name": "Yelahanka Air Force Station",
+                "city": "Bangalore",
+                "country": "India",
+                "id": 132
+            },
+            {
+                "name": "Pasighat Airport",
+                "city": "Pasighat",
+                "country": "India",
+                "id": 133
+            },
+            {
+                "name": "HAL Airport",
+                "city": "Bangalore",
+                "country": "India",
+                "id": 134
+            },
+            {
+                "name": "Kazi Nazrul Islam Airport",
+                "city": "Durgapur",
+                "country": "India",
+                "id": 135
+            },
+            {
+                "name": "Sri Sathya Sai Airport",
+                "city": "Puttaparthi",
+                "country": "India",
+                "id": 136
+            },
+            {
+                "name": "Rajiv Gandhi International Airport",
+                "city": "Hyderabad",
+                "country": "India",
+                "id": 137
+            },
+            {
+                "name": "Tezu Airport",
+                "city": "Tezu",
+                "country": "India",
+                "id": 138
+            },
+            {
+                "name": "Adampur Airport",
+                "city": "Adampur",
+                "country": "India",
+                "id": 139
+            },
+            {
+                "name": "Vijayanagar Aerodrome (JSW)",
+                "city": "Toranagallu",
+                "country": "India",
+                "id": 140
+            },
+            {
+                "name": "Shirdi Airport",
+                "city": "Shirdi",
+                "country": "India",
+                "id": 141
+            },
+            {
+                "name": "Jeypore Airport",
+                "city": "Jeypore",
+                "country": "India",
+                "id": 142
+            },
+            {
+                "name": "Kishangarh Airport",
+                "city": "Ajmer",
+                "country": "India",
+                "id": 143
+            },
+            {
+                "name": "Kannur International Airport",
+                "city": "Kannur",
+                "country": "India",
+                "id": 144
+            },
+            {
+                "name": "Jakkur Aerodrome",
+                "city": "Bengaluru",
+                "country": "India",
+                "id": 145
+            }
+        ],
+        "passengerType": [
+            {
+                "code": "ADT",
+                "name": "adult"
+            },
+            {
+                "code": "CHD",
+                "name": "child"
+            },
+            {
+                "code": "INF",
+                "name": "infant without a seat"
+            },
+            {
+                "code": "INS",
+                "name": "infant with a seat"
+            },
+            {
+                "code": "UNN",
+                "name": "unaccompanied child"
+            }
+        ],
+        "classType": [
+            {
+                "code": "Eco",
+                "name": "Economy"
+            },
+            {
+                "code": "Bas",
+                "name": "Basic"
+            },
+            {
+                "code": "Mai",
+                "name": "Main"
+            }
+        ],
+        "searchResults": [
+            {
+                "id": 218,
+                "name": "Air India Limited",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 241,
+                "name": "Air Sahara",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 569,
+                "name": "Air India Express",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 1026,
+                "name": "Alliance Air",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 1370,
+                "name": "Blue Dart Aviation",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2001,
+                "name": "Deccan Aviation",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2575,
+                "name": "Go Air",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2634,
+                "name": "Gujarat Airways",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2850,
+                "name": "IndiGo Airlines",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2851,
+                "name": "India International Airways",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2852,
+                "name": "Indian Air Force",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 2853,
+                "name": "Indian Airlines",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 3000,
+                "name": "Jet Airways",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 3142,
+                "name": "Kingfisher Airlines",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 3907,
+                "name": "Paramount Airways",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 3918,
+                "name": "Pawan Hans",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 4375,
+                "name": "Spicejet",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 13105,
+                "name": "Air India Regional",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 13106,
+                "name": "MDLR Airlines",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 13107,
+                "name": "Jagson Airlines",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 13905,
+                "name": "Skyline nepc",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 16327,
+                "name": "Indya Airline Group",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 16362,
+                "name": "OCEAN AIR CARGO",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 16738,
+                "name": "NEPC Airlines",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 16901,
+                "name": "12 North",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 19451,
+                "name": "Air Costa",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 20264,
+                "name": "Air Vistara",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 20286,
+                "name": "Air Pegasus",
+                "costDetails": [
+                    {
+                        "type": "Bas",
+                        "price": 100,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Mai",
+                        "price": 500,
+                        "avaliableSeats": 5
+                    },
+                    {
+                        "type": "Eco",
+                        "price": 150,
+                        "avaliableSeats": 5
+                    }
+                ],
+                "stops": [
+                    "PUN",
+                    "DEL"
+                ],
+                "from": "DEL",
+                "to": "CPT",
+                "timeFrom": "02:30am",
+                "timeTo": "04:50pm",
+                "duration": "14h 20m"
+            },
+            {
+                "id": 21270,
+                "name": "Air Carnival"
+            }
+        ]
+    }
+}
